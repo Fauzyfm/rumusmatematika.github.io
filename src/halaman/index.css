@@ -1,0 +1,58 @@
+.halaman {
+    visibility: hidden;
+}
+.halaman1 {
+    visibility: none;
+}
+.fixed-center {
+    position: fixed;
+    width:500px;
+    height:200px;
+    background-color:#FFF;
+    padding:10px;
+    border:5px solid #CCC;
+    z-index:200;
+    margin: 5% auto;
+    left: 0;
+    right: 0;
+}
+
+.relative {
+    position: relative;
+    padding-top: 3rem;
+}
+
+.penutup {
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    opacity: 70%;
+    width: 5000px;
+    height: 5000px;
+}
+
+.paling-depan {
+    z-index: 100
+}
+.paling-tengah {
+    z-index: 50;
+}
+.bck-red {
+    background-color: rgb(230, 3, 3);
+    color: white;
+}
+.bck-red:hover {
+    background-color: rgb(117, 28, 28);
+    color: white;
+
+}
+
+.bck-green {
+    background-color: rgb(12, 170, 12);
+    color: white;
+}
+
+.bck-green:hover {
+    background-color: rgb(21, 121, 21);
+    color: white;
+}

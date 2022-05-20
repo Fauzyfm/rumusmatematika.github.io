@@ -1,0 +1,55 @@
+body {
+    background-color: #212121 ;
+
+}
+
+.cover {
+    height: 639px;
+    color: white;
+    padding-top: 30px;
+}
+.start {
+    height: 60px;
+    width: 150px;
+    border: 1px solid white;
+    border-radius: 2px;
+    box-sizing: border-box;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+}
+.start:hover {
+    background-color: #BDBDBD;
+    scale: 50px;
+}
+.content {
+    color: white;
+    font-size: x-large;
+}  
+.baris {
+    display: flex;
+}
+.kebawah {
+    flex-direction: column;
+}
+.tengah {
+    align-items: center;
+    justify-content: center;
+}
+.samping {
+    flex-direction: row;
+}
+.margin-atas {
+    margin-top: 5rem;
+}
+
+.msover {
+    background-color: #212121;
+    color: white;
+}
+
+.msover:hover {
+    background-color: white;
+    color: #212121;
+}
