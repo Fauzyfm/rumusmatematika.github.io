@@ -40,7 +40,7 @@ const Segitiga = () => {
 
     return ( 
     <div>
-        <div class="container text-light mt-5 mb-5">
+        <div class="container text-light mt-5 mb-5 font-DMsans">
             <div class="row justify-content-center">
                 <div class="col-md-7 text-center">
                     <h2>Pengertian Segitiga</h2>
