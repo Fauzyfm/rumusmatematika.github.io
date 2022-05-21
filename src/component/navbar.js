@@ -26,7 +26,8 @@ const Navcomp = () => {
 
 // }    
        return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow font-DMsans">
+
         <div className="container-lg">
           <NavLink className="navbar-brand" to="/">Matematika<i className="bi bi-triangle"></i></NavLink>
           <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" id='btn1' aria-expanded="true" aria-label="Toggle navigation">
