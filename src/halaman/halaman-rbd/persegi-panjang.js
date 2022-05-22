@@ -44,7 +44,7 @@ const Persegipanjang = () => {
                 {/* button untuk modal 1 start*/}
                 <div className="row justify-content-center m-4">
                     <div className="col-md-5 text-center">
-                        <button className='btn-primary w-100 p-2' onClick={CheckModal1} >Menghitung Luas Persegi Panjang</button>
+                        <button className='bg-2 w-100 border-0 p-2' onClick={CheckModal1} >Menghitung Luas Persegi Panjang</button>
                     </div>
                 </div>
                 {/* button untuk modal 1 end */}
@@ -52,7 +52,7 @@ const Persegipanjang = () => {
                 {/* button untuk modal 2 start */}
                 <div class="row justify-content-center m-4">
                     <div className="col-md-5 text-center">
-                        <button className='btn-primary w-100 p-2' onClick={CheckModal2} >Menghitung Keliling Persegi Panjang</button>
+                        <button className='bg-2 w-100 border-0 p-2' onClick={CheckModal2} >Menghitung Keliling Persegi Panjang</button>
                     </div>
                 </div>
                 {/* button untuk moodal 2 end */}

@@ -53,12 +53,12 @@ const Segitiga = () => {
         <div className="container mt-3">
             <div className="row justify-content-center m-4">
                 <div className="col-md-5 text-center">
-                    <button className='btn-primary w-100 p-2' onClick={CheckModal1} id='btn1'>Menghitung Luas Segitiga</button>
+                    <button className='bg-2 w-100 border-0 p-2' onClick={CheckModal1} id='btn1'>Menghitung Luas Segitiga</button>
                 </div>
             </div>
             <div class="row justify-content-center m-4">
                 <div className="col-md-5 text-center">
-                    <button className='btn-primary w-100 p-2' onClick={CheckModal2} id='btn1'>Menghitung Keliling Segitiga</button>
+                    <button className='bg-2 w-100 border-0 p-2' onClick={CheckModal2} id='btn1'>Menghitung Keliling Segitiga</button>
                 </div>
             </div>
             <div className="row  justify-content-center mt-5"  >

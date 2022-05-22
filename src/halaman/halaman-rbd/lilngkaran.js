@@ -53,7 +53,7 @@ const Lingkaran = () => {
                 {/* button untuk modal 1 start*/}
                 <div className="row justify-content-center m-4">
                     <div className="col-md-5 text-center">
-                        <button className='btn-primary w-100 p-2' onClick={CheckModal1} >Menghitung Jari - Jari LIngkaran</button>
+                        <button className='bg-2 w-100 border-0 p-2' onClick={CheckModal1} >Menghitung Jari - Jari LIngkaran</button>
                     </div>
                 </div>
                 {/* button untuk modal 1 end */}
@@ -61,7 +61,7 @@ const Lingkaran = () => {
                 {/* button untuk modal 2 start */}
                 <div class="row justify-content-center m-4">
                     <div className="col-md-5 text-center">
-                        <button className='btn-primary w-100 p-2' onClick={CheckModal2} >Menghitung Luas Lingkaran </button>
+                        <button className='bg-2 w-100 border-0 p-2' onClick={CheckModal2} >Menghitung Luas Lingkaran </button>
                     </div>
                 </div>
                 {/* button untuk moodal 2 end */}
@@ -69,7 +69,7 @@ const Lingkaran = () => {
                 {/* button untuk modal 3 start */}
                 <div class="row justify-content-center m-4">
                     <div className="col-md-5 text-center">
-                        <button className='btn-primary w-100 p-2' onClick={CheckModal3} >Menghitung Keliling LIngkaran</button>
+                        <button className='btn-primary w-100 border-0 p-2' onClick={CheckModal3} >Menghitung Keliling LIngkaran</button>
                     </div>
                 </div>
                 {/* button untuk moodal 23 end */}

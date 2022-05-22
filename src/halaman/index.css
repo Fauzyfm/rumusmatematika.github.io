@@ -73,6 +73,11 @@
 .bg-4 {
     background-color: #3A3845;
 }
+
+.bg-2:hover {
+    background-color: #b37647;
+}
+
 .active {
     color: #FB8122;
 }
