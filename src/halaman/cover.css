@@ -45,11 +45,15 @@ body {
 }
 
 .msover {
-    background-color: #212121;
-    color: white;
+    background-color: #E1E2E2;
+    color: black;
 }
 
 .msover:hover {
-    background-color: white;
+    /* background-color: white; */
+    background-color: #FB8122;
     color: #212121;
+}
+.active {
+    color: #FB8122;
 }

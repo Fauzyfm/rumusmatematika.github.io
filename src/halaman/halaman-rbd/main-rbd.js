@@ -4,7 +4,7 @@ import 'react-confirm-alert/src/react-confirm-alert.css';
 // import Modals from '../../component/modal.js';
 // import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import '../../halaman/index.css'
 
 const MainRBD = () => {
  

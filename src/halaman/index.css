@@ -60,3 +60,19 @@
 .font-DMsans {
     font-family: 'DM Sans', sans-serif;
 }
+
+.bg-1{
+    background-color: #E1E2E2;
+}
+.bg-2 {
+    background-color: #FB8122;
+}
+.bg-3 {
+    background-color: #1D2228;
+}
+.bg-4 {
+    background-color: #3A3845;
+}
+.active {
+    color: #FB8122;
+}

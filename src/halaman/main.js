@@ -5,9 +5,9 @@ const Main = () => {
     return ( 
         <div className="container mt-5">
             <div className="row ">
-                <div className="col-md-12 ">
-                    <div className="list-group">
-                    <Link to="/main/rbd" class="list-group-item list-group-item-action border border-3 msover border-white mb-2 rounded ">
+                <div className="col-md-12">
+                    <div className="list-group shadow-lg">
+                    <Link to="/main/rbd" class="list-group-item list-group-item-action msover mb-2 rounded ">
                         <div class="d-flex w-100 justify-content-between ">
                         <h5 class="mb-1">Rumus Matematika Bangun Datar</h5>
                         <small class="text-muted">...</small>

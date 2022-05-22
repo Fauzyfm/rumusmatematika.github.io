@@ -26,7 +26,7 @@ const Navcomp = () => {
 
 // }    
        return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow font-DMsans">
+        <nav className="navbar navbar-expand-lg navbar-light bg-2 shadow font-DMsans">
 
         <div className="container-lg">
           <NavLink className="navbar-brand" to="/">Matematika<i className="bi bi-triangle"></i></NavLink>

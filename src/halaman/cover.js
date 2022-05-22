@@ -23,8 +23,8 @@ const Cover = () => {
       <div className='row justify-content-start ps-3'>
         <div className='col-md-6 text-start text-light fs-2'>
           <p>Disini kalian bisa mencari berbagai rumus-rumus matematika untuk menyelesaikan masalah dari soal matematika kalian!</p>
-          <div className='start mt-5  text-light text-center'>
-          <Link className='text-decoration-none text-light fs-4 ' to="/main">Get Started</Link>
+          <div className='start mt-5 text-center msover'>
+          <Link className='text-decoration-none text-dark fs-4 ' to="/main">Get Started</Link>
           </div>
         </div>
       </div>
