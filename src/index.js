@@ -27,7 +27,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './halaman/cover.css';
 import './component/modal.scss';
 import './halaman/index.css';
-import Test from './halaman/test.js';
 
 
 
@@ -51,7 +50,6 @@ const App = () => {
           <Route path='/main/rbd-layang-layang' element={<Layang />}/>
           <Route path='/main/rbd-lingkaran' element={<Lingkaran />}/>
           <Route path='/main/rbd-balok' element={<Balok />}/>
-          <Route path='/main/test' element={<Test />}/>
 
         </Routes>   
       </div>
