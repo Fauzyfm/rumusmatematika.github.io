@@ -72,7 +72,7 @@ const Navcomp = () => {
       // </nav>
 
       <div>
-      <nav className="navbar navbar-light bg-2 ">
+      <nav className="navbar navbar-light bg-2-1 ">
       <div className="container-lg ">
           <NavLink className="navbar-brand" to="/">Matematika</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
