@@ -3,66 +3,116 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {NavLink} from 'react-router-dom';
 // import { Container, Navbar, NavbarBrand } from 'react-bootstrap';
 
+import '../halaman/index.css';
+
 
 const Navcomp = () => {
-//     const Toggleclass = () => {
+//     const ToggleclassName = () => {
 //       const id1 = document.getElementById('1');
 //       const id2 = document.getElementById('2');
       
-//       id1.classList.toggle('show')
-//       id2.classList.toggle('show')
+//       id1.classNameList.toggle('show')
+//       id2.classNameList.toggle('show')
 //     }
 
 // const Navcollapse = () => {
 //     const navbarnav = document.getElementById('navbarNav')
 //     const btn1 = document.getElementById('btn1')
 
-//     btn1.classList.toggle('collapsed')
-//     navbarnav.classList.replace('collapse', 'collapsing')
+//     btn1.classNameList.toggle('collapsed')
+//     navbarnav.classNameList.replace('collapse', 'collapsing')
 //     setTimeout(function(){
-//       navbarnav.classList.replace('collapsing', 'collapse')
+//       navbarnav.classNameList.replace('collapsing', 'collapse')
 //     }, 200);
-//     navbarnav.classList.toggle('show')
+//     navbarnav.classNameList.toggle('show')
 
 // }    
        return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-2 shadow font-DMsans">
+      //   <nav classNameName="navbar navbar-expand-lg navbar-light bg-2 shadow font-DMsans">
+      //   <div classNameName="container-lg">
+      //     <NavLink classNameName="navbar-brand" to="/">Matematika<i classNameName="bi bi-triangle"></i></NavLink>
+      //     <button classNameName="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" id='btn1' aria-expanded="true" aria-label="Toggle navigation">
+      //       <span classNameName="navbar-toggler-icon"></span>
+      //     </button>
+      //     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      //     <div className="offcanvas-header">
+      //       <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+      //       <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      //     </div>
+      //     <div classNameName='offcanvas-body'>      
+      //       <ul classNameName="navbar-nav justify-content-end flex-grow-1 pe-3">
+      //         <li classNameName="nav-item">
+      //           <NavLink classNameName="nav-link" exact aria-current="page" to="/main" ><i classNameName="bi bi-house-door"></i>Home</NavLink>
+      //         </li>
+      //         <li classNameName="nav-item">
+      //           <NavLink classNameName="nav-link" to="/about">About</NavLink>
+      //         </li>
 
-        <div className="container-lg">
-          <NavLink className="navbar-brand" to="/">Matematika<i className="bi bi-triangle"></i></NavLink>
-          <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" id='btn1' aria-expanded="true" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+      //         <li classNameName="nav-item">
+      //           <NavLink classNameName="nav-link" to="/contact">Contact</NavLink>
+      //         </li>
+      //         {/* <ul classNameName="dropdown-menu" aria-labelledby="navbarDropdown">
+      //           <li><Link classNameName="dropdown-item" to="#">Action</Link></li>
+      //           <li><Link classNameName="dropdown-item" to="#">Another action</Link></li>
+      //           <li><Link classNameName="dropdown-item" to="#">Something else here</Link></li>s
+      //         </ul> */}
+              // <li classNameName="nav-item dropdown" id='click'>
+              //   <NavLink id='1' classNameName="nav-link dropdown-toggle" data-bs-toggle="dropdown" to='#' role="button" aria-expanded="false">Rumus</NavLink>
+              //   <ul className="dropdown-menu dropdown-menu-dark" id='2'>
+              //     <li><NavLink classNameName="dropdown-item" to="/main/rbd">Rumus Bangun Datar</NavLink></li>
+              //     <li><NavLink classNameName="dropdown-item" to="/main/1">Coming Soon</NavLink></li>
+              //     <li><NavLink classNameName="dropdown-item" to="/main/2">Coming Soon</NavLink></li>
+              //     <li><NavLink classNameName="dropdown-item" to="/main/3">Coming Soon</NavLink></li>
+              //   </ul>
+              // </li>
+      //       </ul>
+      //     </div>
+      //     </div>
+      //   </div>
+      // </nav>
+
+      <div>
+      <nav className="navbar navbar-light bg-2 ">
+      <div className="container-lg ">
+          <NavLink className="navbar-brand" to="/">Matematika</NavLink>
+          <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+          <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div className="offcanvas-header bg-1">
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div className="offcanvas-body bg-1">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li className="nav-item">
-                <NavLink className="nav-link" exact aria-current="page" to="/main" ><i className="bi bi-house-door"></i>Home</NavLink>
+                  <NavLink className="nav-link" aria-current="page" to="/main">Home</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/about">About</NavLink>
+                  <NavLink className="nav-link" to="/about">About</NavLink>
               </li>
-
               <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">Contact</NavLink>
+                  <NavLink className="nav-link" to="/contact">Contact</NavLink>
               </li>
-              {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link className="dropdown-item" to="#">Action</Link></li>
-                <li><Link className="dropdown-item" to="#">Another action</Link></li>
-                <li><Link className="dropdown-item" to="#">Something else here</Link></li>s
-              </ul> */}
-              <li className="nav-item dropdown" id='click'>
-                <NavLink id='1' className="nav-link dropdown-toggle" data-bs-toggle="dropdown" to='#' role="button" aria-expanded="false">Rumus</NavLink>
-                <ul class="dropdown-menu dropdown-menu-dark" id='2'>
+              <li className="nav-item dropdown">
+                  <NavLink className="nav-link dropdown-toggle" to="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                  </NavLink>
+                  <ul className="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                   <li><NavLink className="dropdown-item" to="/main/rbd">Rumus Bangun Datar</NavLink></li>
                   <li><NavLink className="dropdown-item" to="/main/1">Coming Soon</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/main/2">Coming Soon</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/main/3">Coming Soon</NavLink></li>
-                </ul>
+                  <li><NavLink className="dropdown-item" to="/main/2">Something else here</NavLink></li>
+                  </ul>
               </li>
-            </ul>
+              </ul>
           </div>
-        </div>
+          </div>
+      </div>
       </nav>
+  </div>
+
+
+
        ) 
     
   
